@@ -1,5 +1,5 @@
 from appscript import *
-from dancemachine import Track
+from playback import Track
 import time
 
 def is_playing():
