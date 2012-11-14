@@ -1,13 +1,13 @@
-dancemachine
+playback
 ============
 
 ## Control iTunes on OS X using Python
 
     $ python
-    >>> from dancemachine import transport
+    >>> from playback import transport
     >>> transport.play()
     >>> transport.next()
-    <dancemachine.Track object at 0x106e834d0>
+    <playback.Track object at 0x106e834d0>
     >>> print transport.now_playing()
     "Break" by Fugazi from the album "End Hits"
     >>> print transport.next(fade=True)
